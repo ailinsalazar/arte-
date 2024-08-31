@@ -1,4 +1,4 @@
-<html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -26,6 +26,11 @@
             font-size: 50px;
             margin: 0;
         }
+
+        h2 {
+            font-family: "Century Gothic", sans-serif;
+            color: black;
+        }
     </style>
 </head>
 <body>
@@ -33,48 +38,30 @@
         <h1><marquee behavior="alternate">ARTE</marquee></h1>
     </div>
 
-<h2><p style="text-align: center"> <font face="Century Gothic" size= 4 color="black">El arte es una actividad humana que tiene como objetivo crear obras culturales. <br>Es una expresión de la creatividad humana que se manifiesta en <br>obras que pueden ser apreciadas por los sentidos.<br> El arte puede ser una reproducción, construcción o expresión que deleita, <br>emociona o produce un choque.<br></h></p></font> 
+    <p style="text-align: center; font-family: 'Century Gothic'; font-size: 16px; color: black;">
+        El arte es una actividad humana que tiene como objetivo crear obras culturales. <br>
+        Es una expresión de la creatividad humana que se manifiesta en obras que pueden ser apreciadas por los sentidos.<br>
+        El arte puede ser una reproducción, construcción o expresión que deleita, <br>
+        emociona o produce un choque.
+    </p>
 
-<h2><p style="text-align: center"> <font face="Century Gothic" size= 6 color="black">
-Algunos tipos de arte son: 
-<br></h></p></font> 
+    <h2>Algunos tipos de arte son:</h2>
 
-   </section>
-<section id="Artes Estéticas o Espaciales">
-<a href="arte1.html">
-</section>
+    <h3><a href="arte1.html" style="text-decoration: none; color: black;">Artes Estéticas o Espaciales</a></h3>
+    <h3><a href="arte2.html" style="text-decoration: none; color: black;">Artes Mixtas</a></h3>
+    <h3><a href="arte3.html" style="text-decoration: none; color: black;">Artes Escénicas</a></h3>
 
+    <p style="text-align: left; font-family: 'Century Gothic'; font-size: 16px; color: blue;">
+        Selecciona a qué artistas conoces:
+    </p>
 
-<h2><p style="text-align: center;"><font face="Kristen ITC" size= 6 color="black">Artes Estéticas o Espaciales</h2></p>
-</a href>
-
-    <section id="Artes Mixtas">
-<a href="arte2.html">
-</section>
-
-<h2><p style="text-align: center;"><font face="Kristen ITC" size= 6 color="black">Artes Mixta</h2></p>
-</a href>
-
-    <section id="Artes Estéticas o Espaciales">
-<a href="arte3.html">
-</section>
-
-<h2><p style="text-align: center;"><font face="Kristen ITC" size= 6 color="black">Artes Estéticas o Espaciales</h2></p>
-</a href>
-
-
-<h2><p style="text-align: left"> <font face="Century Gothic" size= 4 color="blue">
-Selecciona a que artistas conoces:<br></h></p></font> 
-
-<h2><p style="text-align: left"> <font face="Century Gothic" size= 4 color="black">
-<input type="checkbox">Pablo Picasso<br>
-<input type="checkbox">Leonardo da Vinci<br>
-<input type="checkbox">Vincent van Gogh<br>
-<input type="checkbox">Diego Velázquez<br>
-<input type="checkbox">Claude Monet<br>
-
-   
-<br>
+    <p style="text-align: left; font-family: 'Century Gothic'; font-size: 16px; color: black;">
+        <input type="checkbox"> Pablo Picasso<br>
+        <input type="checkbox"> Leonardo da Vinci<br>
+        <input type="checkbox"> Vincent van Gogh<br>
+        <input type="checkbox"> Diego Velázquez<br>
+        <input type="checkbox"> Claude Monet<br>
+    </p>
 
     <script type="text/javascript">
         var m1 = "¡HOLA!";
@@ -85,12 +72,10 @@ Selecciona a que artistas conoces:<br></h></p></font>
         var mensaje2 = m2.toUpperCase();
         alert(mensaje2);
 
-  var nombre=prompt("Ingrese su nombre")
-  document.write("Hola"+ " "+nombre + ","+ " " + "eso ha sido un poco sobre arte!")
-<br>
-
-    document.write(new Date());
-
+        var nombre = prompt("Ingrese su nombre");
+        document.write("Hola " + nombre + ", eso ha sido un poco sobre arte!");
+        
+        document.write("<br>" + new Date());
     </script>
 </body>
 </html>
