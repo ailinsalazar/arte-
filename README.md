@@ -39,7 +39,7 @@
     </div>
 
     <div style="text-align: left;"> 
-<img src="paleta.jpg" alt="Mi imagen alineada a la derecha" width=200 height>
+<img src="paleta.jpg" alt="Mi imagen alineada a la derecha" width=100 height>
 </div>
 
     <p style="text-align: center; font-family: 'Century Gothic'; font-size: 16px; color: black;">
@@ -50,7 +50,7 @@
     </p>
 
      <div style="text-align: right;"> 
-<img src="arteee.jpg" alt="Mi imagen alineada a la derecha" width=200 height>
+<img src="arteee.jpg" alt="Mi imagen alineada a la derecha" width=100 height>
 </div>
 
     <h2>Algunos tipos de arte son:</h2>
