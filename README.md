@@ -38,6 +38,10 @@
         <h1><marquee behavior="alternate">ARTE</marquee></h1>
     </div>
 
+    <div style="text-align: left;"> 
+<img src="paleta.jpg" alt="Mi imagen alineada a la derecha" width=200 height>
+</div>
+
     <p style="text-align: center; font-family: 'Century Gothic'; font-size: 16px; color: black;">
         El arte es una actividad humana que tiene como objetivo crear obras culturales. <br>
         Es una expresión de la creatividad humana que se manifiesta en obras que pueden ser apreciadas por los sentidos.<br>
