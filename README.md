@@ -49,6 +49,10 @@
         emociona o produce un choque.
     </p>
 
+     <div style="text-align: right;"> 
+<img src="arteee.jpg" alt="Mi imagen alineada a la derecha" width=200 height>
+</div>
+
     <h2>Algunos tipos de arte son:</h2>
 
     <h3><a href="arte1.html" style="text-decoration: none; color: black;">Artes Estéticas o Espaciales</a></h3>
