@@ -34,6 +34,7 @@
     </style>
 </head>
 <body>
+    <font face="Elephant">
     <div class="header">
         <h1><marquee behavior="alternate">ARTE</marquee></h1>
     </div>
